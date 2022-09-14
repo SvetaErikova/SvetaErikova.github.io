@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .head {
+        padding: 50px 25px;
+    }
+    .social__link>svg {}
+}
