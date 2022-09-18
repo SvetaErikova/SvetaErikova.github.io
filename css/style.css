@@ -101,6 +101,10 @@ li {
     transform: translateY(0%);
 }
 
+.about__text {
+    padding-top: 20px;
+}
+
 
 /*HEADER ANIMATION*/
 
