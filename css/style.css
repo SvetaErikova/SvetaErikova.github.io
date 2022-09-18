@@ -72,12 +72,12 @@ li {
     border-radius: 15px;
 }
 
-.education__name {
+.education__name:not(:last-child) {
     margin-bottom: 20px;
 }
 
-.practice__place {
-    padding: 20px 0px;
+.practice__place:not(:last-child) {
+    padding-bottom: 20px;
 }
 
 .green {
@@ -90,7 +90,6 @@ li {
 }
 
 .element-animation {
-    margin: 2rem 0;
     opacity: 0;
     transform: translateY(20px);
 }
@@ -99,10 +98,6 @@ li {
     opacity: 1;
     transition: all 1.5s;
     transform: translateY(0%);
-}
-
-.about__text {
-    padding-top: 20px;
 }
 
 
