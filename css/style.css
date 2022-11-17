@@ -5,7 +5,9 @@
     }
     
     body {
+        color: white;
         min-width: 370px;
+        background: radial-gradient(#2C1B47, #0B0205);
     }
     /*header*/
     
@@ -70,7 +72,7 @@
         display: inline-block;
         padding: 10px 15px;
         margin-bottom: 10px;
-        border: black 1px solid;
+        border: #DCCAE9 1px solid;
         border-radius: 15px;
     }
     
@@ -82,8 +84,12 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
         padding: 15px 0px;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
     }
     
     .swiper-button-prev,
@@ -101,11 +107,11 @@
     }
     
     .swiper-button-prev {
-        left: -35px;
+        left: -5px;
     }
     
     .swiper-button-next {
-        right: -35px;
+        right: -5px;
     }
     
     .project__list {
@@ -141,21 +147,37 @@
     }
     
     .project__photo-matrica {
-        background-image: url(../matrica.png);
+        background-image: url(../img/matrica.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .project__photo-skillbox {
-        background-image: url(../skillbox.png);
+        background-image: url(../img/skillbox.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .project__photo-stat4market {
-        background-image: url(../stat4market.png);
+        background-image: url(../img/stat4market.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 10px;
+    }
+    
+    .project__photo-blanchard {
+        background-image: url(../img/blanchard.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 10px;
+    }
+    
+    .project__photo-pink {
+        background-image: url(../img/pink.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
